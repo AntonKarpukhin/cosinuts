@@ -1,0 +1,97 @@
+.item {
+	background: #F6F9FF;
+	border-radius: 27px;
+	width: 410px;
+	height: 670px;
+	padding: 15px 15px 30px 15px;
+	display: grid;
+	grid-template-columns: 30px 60px 100px 184px;
+	column-gap: 5px;
+	grid-template-rows: 391px 25px 46px 23px 55px;
+	align-items: center;
+	row-gap: 20px;
+	grid-template-areas:
+	'img img img img'
+	'name name name shape'
+	'title title title title'
+	'price price oldprice .'
+	'icon weightButton weightButton button';
+}
+
+.img {
+	grid-area: img;
+
+	display: block;
+	width: 380px;
+	height: 391px;
+	object-fit: cover;
+}
+.name {
+	grid-area: name;
+
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 25px;
+	color: var(--black);
+}
+.title {
+	grid-area: title;
+	font-size: 15px;
+	width: 370px;
+}
+.price {
+	grid-area: price;
+
+	color: var(--red);
+}
+.oldprice {
+	grid-area: oldprice;
+
+	text-decoration: line-through;
+	color: rgba(54, 54, 54, 0.25);
+}
+.icon {
+	grid-area: icon;
+	align-self: center;
+	transition: 0.7s all;
+	cursor: pointer;
+}
+
+.weightButton {
+	grid-area: weightButton;
+	color: var(--black);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	display: flex;
+	cursor: pointer;
+	justify-self: center;
+}
+
+
+.iconActive {
+	fill: var(--orange-hover);
+}
+
+.button {
+	grid-area: button;
+}
+
+.shape:hover {
+	color: var(--orange);
+	cursor: pointer;
+}
+
+.shape {
+	grid-area: shape;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	font-size: 15px;
+	justify-items: center;
+	align-items: center;
+	transition: 0.7s all;
+}
+
+.shapeIcon {
+	padding-top: 5px;
+}

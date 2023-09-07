@@ -1,0 +1,72 @@
+.weightLeftLarge {
+	width: 140px;
+	height: 50px;
+	background: rgba(83, 141, 255, 0.05);
+	border-radius: 50px 0 0 50px;
+	padding: 15px 50px;
+	transition: 0.7s all;
+}
+
+.weightMiddleLarge {
+	width: 140px;
+	height: 50px;
+	background: rgba(83, 141, 255, 0.05);
+	padding: 15px 50px;
+	transition: 0.7s all;
+}
+
+.weightRightLarge {
+	width: 140px;
+	height: 50px;
+	background: rgba(83, 141, 255, 0.05);
+	border-radius: 0 50px 50px 0;
+	padding: 15px 50px;
+	transition: 0.7s all;
+
+}
+
+.weightLeftSmall {
+	width: 55px;
+	height: 40px;
+	background: rgba(83, 141, 255, 0.05);
+	border-radius: 50px 0 0 50px;
+	padding: 7px 8px;
+	transition: 0.7s all;
+}
+
+.weightMiddleSmall {
+	width: 55px;
+	height: 40px;
+	background: rgba(83, 141, 255, 0.05);
+	padding: 7px 8px;
+	transition: 0.7s all;
+}
+
+.weightRightSmall {
+	width: 55px;
+	height: 40px;
+	background: rgba(83, 141, 255, 0.05);
+	border-radius: 0 50px 50px 0;
+	padding: 7px 8px;
+	transition: 0.7s all;
+}
+
+
+.weightLeft:hover {
+	color: white;
+	background: var(--orange);
+}
+.weightMiddle:hover {
+	color: white;
+	background: var(--orange);
+}
+
+.weightRight:hover {
+	color: white;
+	background: var(--orange);
+}
+
+.active {
+	color: white;
+	background: var(--orange);
+}

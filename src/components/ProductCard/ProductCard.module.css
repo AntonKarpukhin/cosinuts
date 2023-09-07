@@ -1,0 +1,40 @@
+.wrapperCategoryHeader {
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 25px;
+	color: var(--black);
+	margin-bottom: 27px;
+}
+
+.wrapperCard {
+	display: grid;
+	grid-template-columns: 485px auto;
+	grid-template-rows: 500px auto;
+	gap: 82px 107px;
+	height: 661px;
+}
+
+.weightButton {
+	color: var(--black);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	cursor: pointer;
+}
+
+.info {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 42px;
+	color: var(--black-light);
+}
+
+.info span {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 23px;
+	display: block;
+	margin-top: 260px;
+	color: var(--red);
+}

@@ -1,0 +1,28 @@
+.button {
+	border: none;
+	border-radius: 14px;
+	background: var(--orange-hover);
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.7s all;
+}
+
+.small {
+	width: 184px;
+	height: 55px;
+	font-size: 21px;
+	line-height: 25px;
+}
+
+.large {
+	width: 350px;
+	height: 55px;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.button:hover {
+	background: var(--orange);
+}

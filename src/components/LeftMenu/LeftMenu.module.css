@@ -1,0 +1,27 @@
+.button {
+	width: 250px;
+	height: 48px;
+	border-radius: 15px;
+	background: none;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: var(--black);
+	border: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.7s all;
+}
+
+.button:hover {
+	background: var(--orange);
+	color: white;
+}
+
+.active {
+	background: var(--orange);
+	color: white;
+}
+
+
+

@@ -1,0 +1,121 @@
+.wrapper {
+	padding: 40px 144px 100px 144px;
+	width: 1900px;
+	min-height: 1000px;
+	margin: 0 auto;
+	background: rgba(83, 141, 255, 0.05);
+}
+
+.h2 {
+	text-align: center;
+}
+
+.wrapperOrdering {
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+
+.form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 1fr);
+	row-gap: 25px;
+}
+
+.input, .select {
+	width: 532px;
+	height: 62px;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.35);
+	padding: 18px 100px 18px 18px;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	position: relative;
+}
+
+.info {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 25px;
+	color: var(--black);
+	margin-left: 10px;
+}
+
+.select {
+	appearance: none;
+	background: url("arrow.png") no-repeat 5px;
+	background-position-x: calc(100% - 20px);
+	background-color: #FFFFFF;
+}
+
+
+.order {
+	width: 532px;
+	min-height: 437px;
+	background: #FFFFFF;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.orderName {
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 25px;
+	text-align: center;
+	color: var(--black);
+}
+
+.orderProductWrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 15px;
+	margin-top: 28px;
+}
+
+.sum {
+	margin-top: 28px;
+}
+
+.amount {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: var(--black);
+}
+
+.amount span {
+	color: var(--orange);
+	margin-left: 240px;
+}
+
+.button {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.errorMessage {
+	font-weight: 700;
+	font-size: 18px;
+	position: absolute;
+	top: 95px;
+	left: 10px;
+	color: var(--red);
+}
+
+.noProduct {
+	margin-top: 50px;
+	text-align: center;
+}

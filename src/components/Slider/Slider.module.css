@@ -1,0 +1,50 @@
+.wrapper {
+	width: 296px;
+	height: 55px;
+	display: flex;
+	gap: 20px;
+}
+
+.button {
+	width: 55px;
+	height: 55px;
+	border-radius: 13px;
+	background: var(--orange);
+	border: none;
+	cursor: pointer;
+	z-index: 2;
+	transition: 0.7s all;
+}
+
+
+.arrowRight, .arrowLeft {
+	display: block;
+	margin: 0 auto;
+	z-index:  -1;
+}
+
+.arrowRight {
+	transform: rotate(180deg);
+}
+
+.button:hover {
+	background: var(--orange-hover);
+}
+
+.count {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 80px;
+	height: 55px;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 23px;
+	color: var(--gray-light);
+}
+
+.activeNumber {
+	color: var(--black);
+	font-weight: 700;
+}

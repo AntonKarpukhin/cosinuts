@@ -1,0 +1,15 @@
+.orderProduct {
+	display: grid;
+	grid-template-columns: 250px 100px 100px 42px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+	padding-bottom: 15px;
+	align-items: center;
+}
+
+.icon {
+	cursor: pointer;
+}
+
+.icon:hover {
+	fill: var(--orange-light);
+}

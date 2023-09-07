@@ -1,0 +1,21 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	width: 900px;
+	align-items: center;
+	justify-items: center;
+	margin-left: 100px;
+}
+
+.link {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(0, 0, 0, 0.35);
+	cursor: pointer;
+	transition: 0.7s all;
+}
+
+.link:hover {
+	color: var(--orange);
+}

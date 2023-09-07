@@ -1,0 +1,16 @@
+.wrapper {
+	padding: 40px 144px 100px 144px;
+	width: 1900px;
+	min-height: 600px;
+	margin: 0 auto;
+	background: rgba(83, 141, 255, 0.05);
+}
+
+.h2 {
+	text-align: center;
+}
+
+.h3 {
+	margin-top: 152px;
+	text-align: center;
+}

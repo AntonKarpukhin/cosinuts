@@ -1,0 +1,29 @@
+.wrapper {
+	position: relative;
+}
+
+.input {
+	border-radius: 25px;
+	width: 630px;
+	height: 106px;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 40px 120px 40px 30px;
+	border: none;
+}
+
+.button {
+	border: none;
+	border-radius: 25px;
+	width: 106px;
+	height: 106px;
+	background: var(--orange);
+	position: absolute;
+	left: 524px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background: var(--orange-hover);
+}

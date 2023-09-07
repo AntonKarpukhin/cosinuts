@@ -1,0 +1,43 @@
+.wrapper {
+	padding: 40px 144px 100px 144px;
+	width: 1900px;
+	min-height: 1000px;
+	margin: 0 auto;
+	background: rgba(83, 141, 255, 0.05);
+}
+
+.h2 {
+	text-align: center;
+}
+
+.p {
+	text-align: justify;
+	width: 1024px;
+	height: 300px;
+}
+
+.items {
+	display: flex;
+	flex-direction: column;
+	gap: 75px;
+	margin-top: 75px;
+}
+
+.item {
+	display: flex;
+	gap: 75px;
+	height: 300px;
+}
+
+.iconShops {
+	width: 493px;
+	height: 300px;
+}
+
+.icon {
+	width: 1126px;
+	height: 404px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 65px;
+}

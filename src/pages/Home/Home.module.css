@@ -1,0 +1,54 @@
+.wrapper {
+	width: 1900px;
+	min-height: 1160px;
+	background: rgba(83, 141, 255, 0.05);
+	margin: 0 auto;
+	position: relative;
+}
+
+.p {
+	width: 698px;
+	height: 100px;
+	margin: 40px 0 0 160px;
+}
+
+.mainIcon {
+	position: absolute;
+	top: 147px;
+	right: 90px;
+}
+
+.assortment {
+	padding-top: 180px;
+	width: 1900px;
+	margin: 0 auto;
+	min-height: 2000px;
+
+}
+
+.h2 {
+	text-align: center;
+}
+
+.wrapperCard {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	gap: 50px 26px;
+	margin-top: 130px;
+	padding-bottom: 180px;
+}
+
+.wrapperButton {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(7, auto);
+	width: 1300px;
+	align-items: center;
+	justify-items: center;
+	margin-top: 75px;
+}
+
+.acbv {
+	color: red;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+	min-height: 380px;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+	padding-top: 45px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+}
+
+.divider {
+	border: 1px solid #000000;
+	width: 61px;
+	margin-top: 22px;
+}
+
+.item {
+	margin-top: 22px;
+	transition: 0.7s all;
+}
+
+.menu {
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 24px;
+	color: var(--black-light);
+}
+
+.menu:hover {
+	cursor: pointer;
+	color: var(--orange-hover);
+}
+
+.a {
+	display: block;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 24px;
+	color: var(--black-light);
+	width: 240px;
+	transition: 0.7s all;
+}
+
+.a:hover {
+	cursor: pointer;
+	color: var(--orange-hover);
+}
+
+.wrapperContracts {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+}
